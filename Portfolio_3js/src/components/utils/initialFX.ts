@@ -113,8 +113,9 @@ function loopText(selector1: string, selector2: string) {
   )
     .fromTo(
       el1.querySelectorAll(".split-char"),
-      { y: 80 },
+      { opacity: 0, y: 80 },
       {
+        opacity: 1,
         duration: 1.2,
         ease: "power3.inOut",
         y: 0,
@@ -125,8 +126,9 @@ function loopText(selector1: string, selector2: string) {
     )
     .fromTo(
       el1.querySelectorAll(".split-char"),
-      { y: 0 },
+      { opacity: 1, y: 0 },
       {
+        opacity: 0,
         y: -80,
         duration: 1.2,
         ease: "power3.inOut",
@@ -138,6 +140,7 @@ function loopText(selector1: string, selector2: string) {
     .to(
       el2.querySelectorAll(".split-char"),
       {
+        opacity: 0,
         y: -80,
         duration: 1.2,
         ease: "power3.inOut",

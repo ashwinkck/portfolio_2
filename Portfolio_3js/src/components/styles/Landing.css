@@ -211,7 +211,7 @@
   flex-wrap: nowrap;
   text-transform: uppercase;
   letter-spacing: 2px;
-  overflow: hidden;
+  min-width: 350px;
 }
 .landing-h2-info-1 {
   position: absolute;
@@ -226,6 +226,9 @@ h2.landing-info-h2 {
   font-weight: 600;
   position: relative;
   margin-left: -5px;
+}
+.split-char {
+  display: inline-block;
 }
 .landing-h2-2 {
   position: absolute;
