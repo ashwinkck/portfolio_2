@@ -46,7 +46,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>KNOWLEDGE TRANSFER</h4>
-                <h5>300+ STUDENTS MENTORED</h5>
+                <h5>1000+ STUDENTS MENTORED</h5>
               </div>
             </div>
             <p>

@@ -178,7 +178,7 @@ const WhatIDo = () => {
               <h3>MENTORING</h3>
               <h4>Description</h4>
               <p>
-                I have trained and mentored 300+ students in Agentic AI, RAG, LangChain, CrewAI, PyTorch, and Generative AI, translating complex concepts into practical, production-ready development skills.
+                I have trained and mentored 1000+ students in Agentic AI, RAG, LangChain, CrewAI, PyTorch, and Generative AI, translating complex concepts into practical, production-ready development skills.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
